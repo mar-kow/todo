@@ -21,6 +21,12 @@
     <%= f.select :status, Task.statuses.collect { |p| [ p[0].humanize , p[0] ] } %>
   </div>
 
+  <div class="field">
+    <%= f.label :deadline_at %>
+    <%= f.datetime_field :deadline_at %>
+  </div>
+
+
   <div class="actions">
     <%= f.submit %>
   </div>
