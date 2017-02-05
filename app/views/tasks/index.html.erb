@@ -1,51 +1,69 @@
-<p id="notice"><%= notice %></p>
+<!DOCTYPE html>
 
-<h1>Tasks</h1>
+<html>
 
-<%= link_to tasks_path do %>
-  <strong>all</strong>
-<% end %>
+    <head>
+        <%= stylesheet_link_tag "app\assets\stylesheets\application.css" %>
+    </head>
+
+
+    <body>
+
+      <p id="notice"><%= notice %></p>
+
+      <h1>Tasks</h1>
+
+      <%= link_to tasks_path do %>
+      <strong>all</strong>
+      <% end %>
 |
-<%= link_to to_do_tasks_path do %>
-  <strong>to do</strong>
-<% end %>
+      <%= link_to to_do_tasks_path do %>
+      <strong>to do</strong>
+      <% end %>
 |
-<%= link_to in_progress_tasks_path do %>
-  <strong>in progress</strong>
-<% end %>
-|
-<%= link_to done_tasks_path do %>
-  <strong>done</strong>
-<% end %>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Status</th>
-      <th>Created at</th>
-      <th>Updated at</th>
-      <th>Deadline at</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @tasks.each do |task| %>
-      <tr>
-        <td><%= task.name %></td>
-        <td><%= task.status.humanize %></td>
-        <td><%= task.created_at.strftime("%d/%m/%Y") %></td>
-        <td><%= task.updated_at.strftime("%d/%m/%Y") %></td>
-        <td><%= task.deadline_at %></td>
-        <td><%= link_to 'Show', task %></td>
-        <td><%= link_to 'Edit', edit_task_path(task) %></td>
-        <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+    <%= link_to in_progress_tasks_path do %>
+    <strong>in progress</strong>
     <% end %>
-  </tbody>
-</table>
+|
+    <%= link_to done_tasks_path do %>
+    <strong>done</strong>
+    <% end %>
 
-<br>
+    <table>
+      <thead>
+        <tr>
+         <th>Name</th>
+         <th>Status</th>
+         <th>Created at</th>
+         <th>Updated at</th>
+         <th>Deadline at</th>
+         <th colspan="3"></th>
+        </tr>
+      </thead>
 
-<%= link_to 'New Task', new_task_path %>
+      <tbody>
+        <% @tasks.each do |task| %>
+          <tr>
+            <td><%= task.name %></td>
+            <td><%= task.status.humanize %></td>
+            <td><%= task.created_at.strftime("%d/%m/%Y") %></td>
+            <td><%= task.updated_at.strftime("%d/%m/%Y") %></td>
+            <td><%= task.deadline_at %></td>
+            <td><%= link_to 'Show', task %></td>
+            <td><%= link_to 'Edit', edit_task_path(task) %></td>
+            <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+    <br>
+
+    <%= link_to 'New Task', new_task_path, class: 'button' %>
+
+
+
+
+  </body>
+
+</html>
