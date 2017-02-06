@@ -2,34 +2,41 @@
 
 <html>
 
-    <head>
+  <head>
         <%= stylesheet_link_tag "app\assets\stylesheets\application.css" %>
-    </head>
+  </head>
 
+  <body>
 
-    <body>
+    <p id="notice"><%= notice %></p>
 
-      <p id="notice"><%= notice %></p>
+    <div><h1>Tasks</h1></div>
 
-      <h1>Tasks</h1>
-
+    <div class="nav">
       <%= link_to tasks_path do %>
-      <strong>all</strong>
+      <strong>All</strong>
       <% end %>
-|
-      <%= link_to to_do_tasks_path do %>
-      <strong>to do</strong>
-      <% end %>
-|
-    <%= link_to in_progress_tasks_path do %>
-    <strong>in progress</strong>
-    <% end %>
-|
-    <%= link_to done_tasks_path do %>
-    <strong>done</strong>
-    <% end %>
+    </div>
 
-    <table>
+    <div class="nav">
+      <%= link_to to_do_tasks_path do %>
+      <strong>To Do</strong>
+      <% end %>
+    </div>
+
+    <div class="nav">
+      <%= link_to in_progress_tasks_path do %>
+      <strong>In Progress</strong>
+      <% end %>
+    </div>
+
+    <div class="nav">
+      <%= link_to done_tasks_path do %>
+      <strong>Done</strong>
+      <% end %>
+    </div>
+
+    <div class="table"><table>
       <thead>
         <tr>
          <th>Name</th>

@@ -15,12 +15,24 @@
  */
  .button {
     background-color: #e7e7e7;
+    margin-left: 2px;
     color: black;
     border: none;
-    padding: 14px 20px;
+    padding: 8px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 16px;
     border-radius: 12px;
  }
+
+.nav {
+  display: inline;
+  text-decoration: none;
+  padding: 2px 2px;
+  font-size: 16px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
