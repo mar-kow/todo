@@ -12,29 +12,31 @@
 
     <div><h1>Tasks</h1></div>
 
-    <div class="nav">
+    <div class="button">
       <%= link_to tasks_path do %>
-      <strong>All</strong>
+      All
       <% end %>
     </div>
 
-    <div class="nav">
+    <div class="button">
       <%= link_to to_do_tasks_path do %>
-      <strong>To Do</strong>
+      To Do
       <% end %>
     </div>
 
-    <div class="nav">
+    <div class="button">
       <%= link_to in_progress_tasks_path do %>
-      <strong>In Progress</strong>
+      In Progress
       <% end %>
     </div>
 
-    <div class="nav">
+    <div class="button">
       <%= link_to done_tasks_path do %>
-      <strong>Done</strong>
+      Done
       <% end %>
     </div>
+
+    <br>
 
     <div class="table"><table>
       <thead>
@@ -63,11 +65,11 @@
         <% end %>
       </tbody>
     </table>
+    </div>
 
     <br>
 
     <%= link_to 'New Task', new_task_path, class: 'button' %>
-
 
   </body>
 
