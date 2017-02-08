@@ -12,7 +12,21 @@
  *
  *= require_tree .
  *= require_self
- */
+
+html {
+  background-image: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+OR
+html {
+  background-image: url(bg.jpg);
+}
+*/
+
  .button {
     background-color: #e7e7e7;
     margin-left: 2px;
@@ -27,7 +41,7 @@
  }
 
  .button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .button a:link {
@@ -49,4 +63,5 @@
 .table {
   padding-top: 20px;
 }
+
 
