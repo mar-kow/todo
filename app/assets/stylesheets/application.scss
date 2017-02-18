@@ -1,0 +1,66 @@
+/*
+ *= require_tree .
+ *= require_self
+*/
+
+.button {
+   background-color: #E0F0FF;
+   margin-left: 2px;
+   color: #696969;
+   border: none;
+   padding: 8px 12px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 12px;
+}
+
+.button:hover {
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #fff;
+  color: #696969;
+}
+
+.button a:link {
+    text-decoration: none;
+}
+
+.nav {
+  display: inline;
+  text-decoration: none;
+  padding: 2px 2px;
+  font-size: 16px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid;
+}
+
+.table {
+  padding-top: 20px;
+}
+
+tbody tr {
+  /*display: block;*/
+  /*border-radius: 12px;*/
+  /*background-color: #fff;*/
+
+  &:hover {
+    background-color: #FFFFFF;
+  /*  border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;*/
+  }
+
+  &:last-child {
+    /*display: inline-table;*/
+    /*border-radius: 12px;*/
+    border-bottom: none;
+
+  }
+}
+
+select {
+  /*background-color: #fff;*/
+}
