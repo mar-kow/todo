@@ -1,20 +1,8 @@
-<!DOCTYPE html>
 
-<html>
+<p id="notice"><%= notice %></p>
 
-
-  <head>
-        <%= stylesheet_link_tag "app\assets\stylesheets\application.css" %>
-  </head>
-
-  <body>
-
-    <p id="notice"><%= notice %></p>
-
-    <main>
-
-    <section>
-      <h1>The List of Tasks!</h1></div>
+  <section>
+    <h1>The List of Tasks!</h1></div>
 
       <%= link_to 'All', tasks_path, class: 'button' %>
 
@@ -24,9 +12,7 @@
 
       <%= link_to 'Done', done_tasks_path, class: 'button' %>
 
-      <br>
-
-      <div class="table"><table>
+    <div class="table"><table>
         <thead>
           <tr>
           <th>Name</th>
@@ -53,13 +39,12 @@
           <% end %>
         </tbody>
       </table>
+    </div>
 
-      <br>
+    <br>
 
-      <%= link_to 'New Task', new_task_path, class: 'button' %>
-      </main>
-    </section>
+    <%= link_to 'New Task', new_task_path, class: 'button' %>
 
-  </body>
+  </section>
 
-</html>
+
