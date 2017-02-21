@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20170204163925) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.datetime "deadline_at"
+    # t.string   "priority"
   end
 
 end
