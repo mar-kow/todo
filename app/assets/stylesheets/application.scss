@@ -39,24 +39,14 @@
 }
 
 tbody tr {
-  /*display: block;*/
-  /*border-radius: 12px;*/
-  /*background-color: #fff;*/
 
   &:hover {
     background-color: #FFFFFF;
-  /*  border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;*/
   }
 
   &:last-child {
-    /*display: inline-table;*/
-    /*border-radius: 12px;*/
     border-bottom: none;
-
   }
 }
 
-select {
-  /*background-color: #fff;*/
-}
+
