@@ -3,10 +3,14 @@
  *= require_self
 */
 
+$background-color: #E0F0FF;
+$hover-color: #fff;
+$button-color: #696969;
+
 .button {
-   background-color: #E0F0FF;
+   background-color: $background-color;
    margin-left: 2px;
-   color: #696969;
+   color: $button-color;
    border: none;
    padding: 8px 12px;
    text-align: center;
@@ -17,8 +21,8 @@
 
   &:hover {
   box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  background-color: #fff;
-  color: #696969;
+  background-color: $hover-color;
+  color: $button-color;
   }
 }
 
