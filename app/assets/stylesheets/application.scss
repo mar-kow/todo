@@ -60,3 +60,19 @@ table {
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24), 0 10px 40px 0 rgba(0,0,0,0.19);
 }
 
+table, th, td {
+text-align: center;
+vertical-align: bottom;
+}
+
+
+
+th {
+  padding: 15px;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  padding: 15px;
+}
