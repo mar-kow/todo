@@ -4,10 +4,14 @@ ___
 
 This is my **first** app. So glad You are here!
 
-What I want to achieve:
+What I want to achieve here:
 
 - [x] use basic html and css
-- [ ] be fluent with github
+- [ ] become fluent in git & github
 - [ ] learn RoR
 
-You can check it out on heroku: http://todo-firstapp.herokuapp.com/
+
+#Results#
+___
+
+You can check how I am doing on **heroku**: http://todo-firstapp.herokuapp.com/
