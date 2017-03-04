@@ -1,8 +1,9 @@
 
 #Hello there!#
 
-This is my **first** app. So glad You are here!
-___
+This is my **first** app. So glad You are here! :smiley:
+
+##Plan##
 
 What I want to achieve here:
 
@@ -12,6 +13,5 @@ What I want to achieve here:
 
 
 ##Results##
-
 
 You can check how I am doing on **heroku**: http://todo-firstapp.herokuapp.com/
