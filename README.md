@@ -1,8 +1,8 @@
 
 #Hello there!#
-___
 
 This is my **first** app. So glad You are here!
+___
 
 What I want to achieve here:
 
@@ -11,7 +11,7 @@ What I want to achieve here:
 - [ ] learn RoR
 
 
-#Results#
-___
+##Results##
+
 
 You can check how I am doing on **heroku**: http://todo-firstapp.herokuapp.com/
