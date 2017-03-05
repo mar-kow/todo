@@ -8,6 +8,7 @@ This is my **_first_** app. So glad you made it here! :smiley:
 What I want to achieve here:
 
 - [x] use basic html and css
+- [x] use git & github
 - [ ] become fluent in git & github
 - [ ] learn RoR
 
