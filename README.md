@@ -1,7 +1,7 @@
 
 #Hello there!#
 
-This is my **first** app. So glad you made it here! :smiley:
+This is my **_first_** app. So glad you made it here! :smiley:
 
 ##Plan##
 
