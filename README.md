@@ -3,7 +3,7 @@
 
 This is my **_first_** app. So glad you made it here! :smiley:
 
-##Plan##
+##My Plan##
 
 What I want to achieve here:
 
@@ -13,6 +13,6 @@ What I want to achieve here:
 - [ ] learn RoR
 
 
-##Results##
+##Current Results##
 
 You can see how I'm doing on [heroku](http://todo-firstapp.herokuapp.com)!
