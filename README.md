@@ -10,7 +10,7 @@ What I want to achieve here:
 - [x] use basic html and css
 - [x] use git & github
 - [ ] become fluent in git & github
-- [ ] learn RoR
+- [ ] learn RoR :muscle:
 
 
 ##Current Results##
