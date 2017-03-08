@@ -8,7 +8,7 @@ This is my **_first_** app. So glad you made it here! :smiley:
 What I want to achieve here:
 
 - [x] use basic html and css
-- [x] use git & github
+- [x] use git & github :octocat:
 - [ ] become fluent in git & github
 - [ ] learn RoR :muscle:
 
