@@ -17,4 +17,4 @@ What I want to achieve here:
 
 You can see how I'm doing on [heroku](http://todo-firstapp.herokuapp.com)!
 
-Please,feel free to leave any comment or feadback. It will be very appreciated.
+Please, feel free to leave any comment or feadback. It will be very appreciated.
