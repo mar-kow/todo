@@ -16,3 +16,5 @@ What I want to achieve here:
 ##Current Results##
 
 You can see how I'm doing on [heroku](http://todo-firstapp.herokuapp.com)!
+
+Please,feel free to leave any comment or feadback. It will be very appreciated.
