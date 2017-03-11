@@ -18,10 +18,10 @@ ActiveRecord::Schema.define(version: 20170303174324) do
   create_table "tasks", force: :cascade do |t|
     t.string   "name"
     t.integer  "status"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
     t.datetime "deadline_at"
-    t.string   "priority"
+    t.integer  "priority",    default: 1
   end
 
 end
