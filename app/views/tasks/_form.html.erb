@@ -22,6 +22,11 @@
   </div>
 
   <div class="field">
+    <%= f.label :priority %>
+    <%= f.select :priority, Task.priorities.collect { |p| [ p[0].humanize , p[0] ] } %>
+  </div>
+
+  <div class="field">
     <%= f.label :deadline_at %>
     <%= f.datetime_select :deadline_at %>
     <%#= f.datetime_local_field :deadline_at %>
