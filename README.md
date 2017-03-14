@@ -9,7 +9,7 @@ What I want to achieve here:
 
 - [x] use basic html and css
 - [x] use git & github :octocat:
-- {x} use heroku
+- [x] use heroku
 - [ ] become fluent in git & github :sweat:
 - [ ] learn RoR :muscle:
 
