@@ -1,9 +1,9 @@
 
-#Hello there!#
+# Hello there! #
 
 This is my **_first_** app. So glad you made it here! :smiley:
 
-##My Plan##
+## My Plan ##
 
 What I want to achieve here:
 
@@ -14,7 +14,7 @@ What I want to achieve here:
 - [ ] learn RoR :muscle:
 
 
-##Current Results##
+## Current Results ##
 
 You can see how I'm doing on [heroku](http://todo-firstapp.herokuapp.com)!
 
