@@ -1,0 +1,16 @@
+pl:
+  hello: Cześć
+  activerecord:
+    models:
+      task: Zadanie
+    attributes:
+      task:
+        name: Imię
+        status: Status
+        created_at: Stworzone
+        updated_at: Zmienione
+        deadline_at: Termin
+        priority: Priorytet
+  tasks:
+    index:
+      more: Więcej opcji

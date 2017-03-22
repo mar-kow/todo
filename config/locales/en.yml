@@ -21,3 +21,17 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    models:
+      task: Task
+    attributes:
+      task:
+        name: Name
+        status: Status
+        created_at: Created
+        updated_at: Updated
+        deadline_at: Deadline
+        priority: Priority
+  tasks:
+    index:
+      more: More options
